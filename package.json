@@ -1,0 +1,26 @@
+{
+  "name": "discord_bot",
+  "version": "1.0.0",
+  "description": "A simple open-source bot.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Talan122",
+  "license": "MIT",
+  "dependencies": {
+    "@discordjs/builders": "^0.11.0",
+    "@discordjs/rest": "^0.2.0-canary.0",
+    "discord-api-types": "^0.26.1",
+    "discord.js": "^13.5.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Talan122/discord-bot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Talan122/discord-bot/issues"
+  },
+  "homepage": "https://github.com/Talan122/discord-bot#readme"
+}
