@@ -1,7 +1,6 @@
 const fs = require('fs');
 const { Client, Collection, Intents } = require('discord.js');
 const { token } = require('./config.json');
-const wait = require('util').promisify(setTimeout);
 
 const client = new Client({ intents: [Intents.FLAGS.GUILDS, "GUILD_MESSAGES"] });
 
